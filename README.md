@@ -1,5 +1,17 @@
 # Maria-e-Ykaro-API
+
 Um API de procura de produtos.
+Para pesquisar a marca “maybelline”, acrescente 'brand=maybelline'. Por exemplo:
+http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline
+Para pesquisar os “batons” da marca “covergirl”, você acrescentaria 'brand=covergirl' e '&product_type=lipstick'. Por exemplo:
+http://makeup-api.herokuapp.com/api/v1/products.json?brand=covergirl&product_type=lipstick
+
+
+
+
+
+
+
 
 const http = require('http');
 
